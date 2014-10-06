@@ -1,0 +1,204 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Rellena tu CV</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.22" />
+</head>
+
+<body>
+	<h1>Rellena tu CV</h1>
+	<form>
+	 <fieldset>
+    <legend>Datos personales</legend>
+    <label for="nom"> Nombre</label>
+    <br/>
+    <input type="text" id="nom" name="nombre" value="" />
+    <br/>
+    <label for="ape">Apellidos</label> 
+    <br/>
+    <input type="text" id="ape" name="apellidos" value="" />
+    <br/>
+    <label for="dni">DNI</label>
+    <br/>
+    <input type="text" id="dni" name="dni" value="" size="10" maxlength="9" />
+    <br/>
+    <label for="des">Descripción</label>
+    <br/>
+    <textarea rows="3" cols="50" id="des"></textarea>
+    <br/>
+	<label for="prv">Provincia</label>
+	<br/>
+	<select id="prv" name="provincia">
+	<option value='0'>(Seleccionar)</option>
+	<option value='2'>Álava</option>
+	<option value='3'>Albacete</option>
+	<option value='4'>Alicante/Alacant</option>
+	<option value='5'>Almería</option>
+	<option value='6'>Asturias</option>
+	<option value='7'>Ávila</option>
+	<option value='8'>Badajoz</option>
+	<option value='9'>Barcelona</option>
+	<option value='10'>Burgos</option>
+	<option value='11'>Cáceres</option>
+	<option value='12'>Cádiz</option>
+	<option value='13'>Cantabria</option>
+	<option value='14'>Castellón/Castelló</option>
+	<option value='15'>Ceuta</option>
+	<option value='16'>Ciudad Real</option>
+	<option value='17'>Córdoba</option>
+	<option value='18'>Cuenca</option>
+	<option value='19'>Girona</option>
+	<option value='20'>Las Palmas</option>
+	<option value='21'>Granada</option>
+	<option value='22'>Guadalajara</option>
+	<option value='23'>Guipúzcoa</option>
+	<option value='24'>Huelva</option>
+	<option value='25'>Huesca</option>
+	<option value='26'>Illes Balears</option>
+	<option value='27'>Jaén</option>
+	<option value='28'>A Coruña</option>
+	<option value='29'>La Rioja</option>
+	<option value='30'>León</option>
+	<option value='31'>Lleida</option>
+	<option value='32'>Lugo</option>
+	<option value='33'>Madrid</option>
+	<option value='34'>Málaga</option>
+	<option value='35'>Melilla</option>
+	<option value='36'>Murcia</option>
+	<option value='37'>Navarra</option>
+	<option value='38'>Ourense</option>
+	<option value='39'>Palencia</option>
+	<option value='40'>Pontevedra</option>
+	<option value='41'>Salamanca</option>
+	<option value='42'>Segovia</option>
+	<option value='43'>Sevilla</option>
+	<option value='44'>Soria</option>
+	<option value='45'>Tarragona</option>
+	<option value='46'>Santa Cruz de Tenerife</option>
+	<option value='47'>Teruel</option>
+	<option value='48'>Toledo</option>
+	<option value='49'>Valencia/Valéncia</option>
+	<option value='50'>Valladolid</option>
+	<option value='51'>Vizcaya</option>
+	<option value='52'>Zamora</option>
+	<option value='53'>Zaragoza</option>
+</select>
+	<br/>
+	<label for="nac">Fecha de Nacimiento</label>
+	<br/>
+	<select id="nac" name="nac">
+	<option value="1" selected="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+	</select>
+	<label for="mes">de</label>
+	<select id="mes" name="mes">
+	<option value="enero" selected="enero">Enero</option>
+	<option value="febrero">Febrero</option>
+	<option value="marzo">Marzo</option>
+	<option value="abril">Abril</option>
+	<option value="mayo">Mayo</option>
+	<option value="junio">Junio</option>
+	<option value="julio">Julio</option>
+	<option value="agosto">Agosto</option>
+	<option value="septiembre">Septiembre</option>
+	<option value="octubre">Octubre</option>
+	<option value="noviembre">Noviembre</option>
+	<option value="diciembre">Diciembre</option>
+	</select>
+	<label for="year">de</label>
+	<input type="text" id="year" name="year" value="" maxlength="4"/>
+	<br/>
+	<label for="int">Temas de interés</label>
+	<br/>
+	<select id="int" multiple="multiple">
+	<option value="vj">Video juegos</option>
+	<option value="noticas">Noticias</option>
+	<option value="coches">Coches</option>
+	<option value="ventas">Ventas</option>
+	<option value="moda">Moda</option>
+	<option value="ciencia">Ciencia</option>
+	</select>
+	<br/>
+	<label for="foto">Foto</label>
+	<input type="file" id="foto" name="adjunto" />
+	<br/>
+	<input type="checkbox" value="" name="añadir"/>Añadir contador de visitas
+	
+	
+	
+  </fieldset>
+ 
+  <fieldset>
+    <legend>Datos de conexión</legend>
+    <label for="usr">Nombre de usuario</label>
+    <br/>
+    <input type="text" id="usr" name="nombre" value="" maxlength="10" />
+    <br/>
+    <label for="pwd">Contraseña</label>
+    <br/>
+    <input type="password" id="pwd" name="password" value="" maxlength="10" />
+    <br/>
+    <label for="repwd">Repite la contraseña</label>
+    <br/>
+    <input type="password" id="repwd" name="password2" value="" maxlength="10" />
+  </fieldset>
+  <fieldset>
+	<legend>Datos económicos</legend>
+	<label for="precio">Precio</label>
+	<input type="text" id="precio" value="" name="precio"/>€
+	<label for="imp">Impuestos</label>
+	<select id="imp" name="imp">
+		<option value="4%" selected="selected">4%</option>
+		<option value="7%">7%</option>
+		<option value="16%">16%</option>
+		<option value="25%">25%</option>
+	</select>
+	<br/>
+	<br/>
+	<label for="prom">Promoción</label>
+	<br/>
+	<input type="radio" name="promocion" value="ninguno">Ninguno
+	<br/>
+	<input type="radio" name="promocion" value="transporte">Transporte gratuito
+	<br/>
+	<input type="radio" name="promocion" value="Descuento">Descuento 5%
+  </fieldset>
+  <input type="reset" name="clear" value="Reiniciar formulario"/>
+  </form>
+</body>
+
+</html>
