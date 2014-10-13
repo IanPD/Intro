@@ -1,0 +1,57 @@
+h1#titulo {
+	color:#008484;
+	}
+h2#subtitulo {
+	color:blue;
+	}
+p strong {
+	color:red;
+	}
+.destacado {
+	color:orange;
+	}
+p a {
+	color:red;
+	}
+a em {
+	color:blue;
+	}
+caption {
+	color:blue;
+	}
+thead {
+	border:1px solid black;
+	color:orange;
+	}
+tfoot {
+	border:1px solid black;
+	color:red;
+	}
+th.especial {
+	border:1px solid black;
+	color:orange;
+	}
+th {
+	border:1px solid black;
+	color:red;
+	}
+td  {
+	border:1px solid black;
+	color:green;
+	}
+td strong {
+	color:orange;
+	}
+div p a {
+	color:green;
+	}
+table {
+	border:1px solid black;
+	border-collapse:collapse
+	}
+div#adicional {
+	color:green;
+	}
+span#especial {
+	color:fuchsia;
+	}
