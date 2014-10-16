@@ -1,8 +1,9 @@
-/* El cuerpo de la página debe mostrar un margen de media pulgada */
-body { margin: 0.5in; }
- 
-/* Los elementos <h1> deben mostrar un interlineado de 2 centímetros */
-h1 { line-height: 2cm; }
+body { font-size: 1em; }
+h1 { font-size: 100%; }
+h2 { font-size: 150%; }
+
+div#contenido { width: 600px; }
+div.principal { width: 80%; }
  
 /* Las palabras de todos los párrafos deben estar separadas 4 milímetros entre si */
 p { word-spacing: 4mm; }
