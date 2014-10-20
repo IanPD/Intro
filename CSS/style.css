@@ -1,13 +1,10 @@
-.pati {
-   background:#990000;
-   color:White;
-   text-align:center;
-   font-weight:bold
-   }
-th {
-	background:#990000;
-	color:White
-	}
-td {
-	text-align:center
+  h1 {
+   color: red; 
+    font-family: Arial;  
+     font-size: large; 
+    }
+  p  { 
+	color: gray; 
+	font-family: Verdana;
+	 font-size: medium;
 	}
