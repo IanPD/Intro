@@ -1,0 +1,9 @@
+* { margin:0; padding:0;}
+#normal { width:50%;text-align:center}
+#relativo p {background:green; width:50%; border:1px solid black;}
+#relativo .mou { position:relative; background:cyan; top:10px; left:10px}
+#absolut p {background:#CB5C14; width:50%; border:1px solid black;}
+#absolut .mou { position:absolute; background:#A916B5; top:-10px; left:-10px}
+#absolut .fixe { position:fixed; background:#33FF20; top:80#33FF20px; left:300px}
+#relleno p {background:#CB5C14; width:50%; border:1px solid black;}
+
