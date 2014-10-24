@@ -1,0 +1,5 @@
+* { margin:0; padding:0;}
+#contenedor { width:303px;}
+.caja { border: 1px solid black; width:150px; height:150px}
+#capsa1 { float:right;height:300px}
+
