@@ -2,13 +2,37 @@
 body {
 background-image:url("../IMG/body.gif");
 }
-#header img{
- witdth:0%;
+#header img {
+width: 50px;
+height: 50px;
+position:relative
  }
+ 
+h1 {
+margin-left: 60px;
+margin-top: -50px;
+position:relative
+}
+
 #nav li{
 background:black;
 color:white;
+font-weight:bold;
 width:90px;
 float:left;
 display:block;
+position:relative
+}
+
+#imggorila {
+margin-top: 5%;
+margin-left: 18%;
+position:relative
+}
+span {
+font-family:verdana;
+background-color:green;
+color:white;
+font-size:30pt;
+font-weight:bold;
 }
