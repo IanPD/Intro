@@ -17,8 +17,10 @@ margin-left: 4%;
 margin-top: -4%;
 position:relative
 }
+
 #nav{
 margin-top:2%;
+padding:0;
 }
 
 #nav li{
@@ -26,11 +28,11 @@ text-align:left;
 background:black;
 color:white;
 font-weight:bold;
-height: 0%;
-width:33.299%;
+width:31.42%;
 float:left;
-display:block;
-position:relative
+padding:0.94%;
+position:relative;
+list-style-type: none;
 }
 
 #imggorila img{
@@ -39,14 +41,17 @@ position:relative
 }
 
 span {
-font-family:verdana;
-background-color:green;
-color:white;
-font-size:30pt;
-font-weight:bold;
-display:inline;
+font-family: verdana;
+background-color: green;
+color: white;
+font-size: 30pt;
+font-weight: bold;
+display: block;
+margin-top: -16%;
+margin-left: 40%;
+margin-right: 7%;
 }
 #video {
 margin-left: 37%;
-margin-top: 1%;
+margin-top: 12%;
 }
