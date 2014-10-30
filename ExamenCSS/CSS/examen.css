@@ -5,36 +5,48 @@ body {
 background-image:url("../IMG/body.gif");
 }
 #header img {
-width: 50px;
-height: 50px;
+margin-left: 0.5%;
+margin-top: 0.5%;
+width: 3.5%;
+height: 3.5%;
 position:relative
  }
  
 h1 {
-margin-left: 60px;
-margin-top: -50px;
+margin-left: 4%;
+margin-top: -4%;
 position:relative
+}
+#nav{
+margin-top:2%;
 }
 
 #nav li{
+text-align:left;
 background:black;
 color:white;
 font-weight:bold;
-width:90px;
+height: 0%;
+width:33.299%;
 float:left;
 display:block;
 position:relative
 }
 
-#imggorila {
-margin-top: 5%;
-margin-left: 15%;
+#imggorila img{
+margin-left: 14%;
 position:relative
 }
+
 span {
 font-family:verdana;
 background-color:green;
 color:white;
 font-size:30pt;
 font-weight:bold;
+display:inline;
+}
+#video {
+margin-left: 37%;
+margin-top: 1%;
 }
