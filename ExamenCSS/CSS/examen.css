@@ -23,6 +23,10 @@ margin-top:2%;
 padding:0;
 }
 
+#nav ul { 
+color:white;
+}
+
 #nav li{
 text-align:left;
 background:black;
