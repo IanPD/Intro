@@ -1,0 +1,61 @@
+* { margin:0;
+padding:0;}
+ 
+body {
+background-image:url("../IMG/body.gif");
+}
+#header img {
+margin-left: 0.5%;
+margin-top: 0.5%;
+width: 3.5%;
+height: 3.5%;
+position:relative
+ }
+ 
+h1 {
+margin-left: 4%;
+margin-top: -4%;
+position:relative
+}
+
+#nav{
+margin-top:2%;
+padding:0;
+}
+
+#nav ul { 
+color:white;
+}
+
+#nav li{
+text-align:left;
+background:black;
+color:white;
+font-weight:bold;
+width:31.42%;
+float:left;
+padding:0.94%;
+position:relative;
+list-style-type: none;
+}
+
+#imggorila img{
+margin-left: 14%;
+position:relative
+}
+
+span {
+font-family: verdana;
+background-color: green;
+color: white;
+font-size: 30pt;
+font-weight: bold;
+display: block;
+margin-top: -16%;
+margin-left: 40%;
+margin-right: 7%;
+}
+#video {
+margin-left: 37%;
+margin-top: 12%;
+}
