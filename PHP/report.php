@@ -21,7 +21,7 @@
     $fang_spotted = $_POST['fangspotted'];
     $email = $_POST['email'];
     $other = $_POST['other'];
-    $msg = $name . $last_name . 'was abducted' . $when_it_happened . 'and was gone for' . $how_long . '.' . 'Number of aliens:' . $how_many . 'Alien description: ' . $alien_description . 'What they did: ' . $what_they_did . 'Fang spotted:' . $fang_spotted . 'Other comments' . $other;
+    $msg = $name ." ". $last_name . ' was abducted ' . $when_it_happened . ' and was gone for ' . $how_long . '.' . ' Number of aliens: ' . $how_many . ' Alien description: ' . $alien_description . ' What they did: ' . $what_they_did . ' Fang spotted: ' . $fang_spotted . ' Other comments ' . $other;
     ?>
     <style>
     p { font-family:arial;
