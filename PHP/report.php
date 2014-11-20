@@ -44,6 +44,18 @@
 	<p>Other else: <?php echo $other;?></p>
 	<p> el mensaje será: <?php echo $msg;?></p>
 	
+	<?php
+	$dbc = mysqli_connect('172.16.1.189', 'iperezm', 'iperezm', 'aliendatabase')
+	or die('Error connecting to MySQL server.');
+	$query = "INSERT INTO aliens_abduction (first_name, last_name, when_it_happened, how_long, " .
+	"how_many, alien_description, what_they_did, fang_spotted, other, email) " .
+	"VALUES ('$name ', '$last_name', '$when_it_happened', '$how_long', '$how_many', '$alien_description', " .
+	"'$what_they_did', '$fang_spotted', '$other', " .
+	"$email')";
+	$result = mysqli_query($dbc, $query)
+	or die('Error querying database.');
+	mysqli_close($dbc);
+?>
 	
 </body>
 
