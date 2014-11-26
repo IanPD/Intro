@@ -21,8 +21,8 @@
 	<?php
 	$dbc = mysqli_connect('172.16.1.189', 'iperezm', 'iperezm', 'SIRIUS_DB')
 	or die('Error al conectar al servidor Mysql');
-	$query = "INSERT INTO USERS (User, Pwd, Mail, Name, 2ndname," .
-	"VALUES ('$user ', '$pwd', '$mail', '$name', '$SecondName')";
+	$query = "INSERT INTO USERS (User,Pwd,Mail,Name,2ndname)
+	VALUES ('$user ', '$pwd', '$mail', '$name', '$SecondName')";
 	$result = mysqli_query($dbc, $query)
 	or die('Error al insertar informacion en la base de datos');
 	mysqli_close($dbc); 
